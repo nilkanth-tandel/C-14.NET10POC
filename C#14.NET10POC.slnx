@@ -1,0 +1,27 @@
+<Solution>
+
+    <Folder Name="/C#14.NET10POC/Domain/">
+      <Project Path="C#14.NET10POC.Domain\C#14.NET10POC.Domain.csproj" />
+    </Folder>
+
+    <Folder Name="/C#14.NET10POC/Application/">
+      <Project Path="C#14.NET10POC.Application\C#14.NET10POC.Application.csproj" />
+    </Folder>
+
+    <Folder Name="/C#14.NET10POC/Infrastructure/">
+      <Project Path="C#14.NET10POC.Infrastructure\C#14.NET10POC.Infrastructure.csproj" />
+    </Folder>
+
+    <Folder Name="/C#14.NET10POC/">
+      <Project Path="C#14.NET10POC\C#14.NET10POC.csproj" />
+    </Folder>
+
+  <!-- Documentation -->
+  <Folder Name="/docs/">
+    <File Path="README.md" />
+    <File Path="DATABASE_SETUP.md" />
+    <File Path="FEATURES_TRACKING.md" />
+    <File Path="PHASE1_COMPLETION_SUMMARY.md" />
+  </Folder>
+
+</Solution>

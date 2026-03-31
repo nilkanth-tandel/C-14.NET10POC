@@ -1,0 +1,6 @@
+@C_14.NET10POC_HostAddress = http://localhost:5137
+
+GET {{C_14.NET10POC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
