@@ -29,6 +29,7 @@ public class ProductsController : ControllerBase
     public async Task<ActionResult<IEnumerable<ProductDto>>> GetAllProducts()
     {
         var products = await _productService.GetAllProductsAsync();
+
         return Ok(products);
     }
 
@@ -44,7 +45,7 @@ public class ProductsController : ControllerBase
         
         if (product is null)
             return NotFound(new { message = $"Product with ID {id} not found" });
-
+        //abcd
         return Ok(product);
     }
 
